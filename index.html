@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a wide range of free online tools for image and PDF processing. Compress, convert, edit, and optimize your files effortlessly.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, compress images, edit PDF, free tools">
+    <meta name="author" content="Your Name">
+    <title>Online Tools - Image & PDF Tools</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 16px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Tool Categories */
+        .tool-category {
+            margin-bottom: 40px;
+        }
+
+        .tool-category h2 {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card i {
+            font-size: 40px;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .tool-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .tool-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            .tool-card h3 {
+                font-size: 18px;
+            }
+
+            .tool-card p {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .tool-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Tools</h1>
+        <p>Your one-stop destination for free image and PDF tools</p>
+    </header>
+
+    <main>
+        <!-- Image Tools Section -->
+        <section class="tool-category">
+            <h2>Image Tools</h2>
+            <div class="tool-grid">
+    <a href="/image-compress.html" class="tool-link">
+        <div class="tool-card">
+            <i class="fas fa-compress"></i>
+            <h3>Image Compressor</h3>
+            <p>Compress and optimize your images without losing quality.</p>
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+            <small>75% of users found this tool helpful</small>
+            <!-- Access Button -->
+            <div class="tool-button">Use Tool</div>
+        </div>
+    </a>
+    <!-- Add more tool cards here -->
+</div>
+                <div class="tool-card">
+                    <i class="fas fa-file-image"></i>
+                    <h3>Image Converter</h3>
+                    <p>Convert images to different formats like JPG, PNG, and more.</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-crop"></i>
+                    <h3>Image Resizer</h3>
+                    <p>Resize images to your desired dimensions effortlessly.</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-edit"></i>
+                    <h3>Image Editor</h3>
+                    <p>Edit and enhance your images with our online editor.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PDF Tools Section -->
+        <section class="tool-category">
+            <h2>PDF Tools</h2>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>PDF Compressor</h3>
+                    <p>Reduce the size of your PDF files without losing quality.</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-export"></i>
+                    <h3>PDF to Word</h3>
+                    <p>Convert PDF files to editable Word documents.</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-import"></i>
+                    <h3>Word to PDF</h3>
+                    <p>Convert Word documents to PDF format.</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>PDF Editor</h3>
+                    <p>Edit and annotate your PDF files online.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
